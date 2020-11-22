@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f0c6f35-1ac5-49ea-b41e-20445c07c5c6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zipcodewilmington/singlylinkedlist/NodeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedListTest.java" afterDir="false" />
     </list>
@@ -71,7 +56,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SinglyLinkedListTest.testContainsAll">
+  <component name="RunManager" selected="JUnit.SinglyLinkedListTest.testsort">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -126,7 +111,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyLinkedListTest.Copy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SinglyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="singlylinkedlist" />
       <extension name="coverage">
         <pattern>
@@ -136,14 +121,30 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zipcodewilmington.singlylinkedlist" />
       <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.singlylinkedlist.SinglyLinkedListTest" />
-      <option name="METHOD_NAME" value="Copy" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SinglyLinkedListTest.testAdd2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="singlylinkedlist" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zipcodewilmington.singlylinkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zipcodewilmington.singlylinkedlist" />
+      <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.singlylinkedlist.SinglyLinkedListTest" />
+      <option name="METHOD_NAME" value="testAdd2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyLinkedListTest.testContains2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SinglyLinkedListTest.testContainsAll2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="singlylinkedlist" />
       <extension name="coverage">
         <pattern>
@@ -153,14 +154,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zipcodewilmington.singlylinkedlist" />
       <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.singlylinkedlist.SinglyLinkedListTest" />
-      <option name="METHOD_NAME" value="testContains2" />
+      <option name="METHOD_NAME" value="testContainsAll2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyLinkedListTest.testContainsAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SinglyLinkedListTest.testsort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="singlylinkedlist" />
       <extension name="coverage">
         <pattern>
@@ -170,14 +171,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zipcodewilmington.singlylinkedlist" />
       <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.singlylinkedlist.SinglyLinkedListTest" />
-      <option name="METHOD_NAME" value="testContainsAll" />
+      <option name="METHOD_NAME" value="testsort" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyLinkedListTest.testFind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SinglyLinkedListTest.testsort2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="singlylinkedlist" />
       <extension name="coverage">
         <pattern>
@@ -187,24 +188,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zipcodewilmington.singlylinkedlist" />
       <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.singlylinkedlist.SinglyLinkedListTest" />
-      <option name="METHOD_NAME" value="testFind" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SinglyLinkedListTest.testFind2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="singlylinkedlist" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zipcodewilmington.singlylinkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zipcodewilmington.singlylinkedlist" />
-      <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.singlylinkedlist.SinglyLinkedListTest" />
-      <option name="METHOD_NAME" value="testFind2" />
+      <option name="METHOD_NAME" value="testsort2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -272,11 +256,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SinglyLinkedListTest.testContainsAll" />
-        <item itemvalue="JUnit.SinglyLinkedListTest.Copy" />
-        <item itemvalue="JUnit.SinglyLinkedListTest.testFind2" />
-        <item itemvalue="JUnit.SinglyLinkedListTest.testFind" />
-        <item itemvalue="JUnit.SinglyLinkedListTest.testContains2" />
+        <item itemvalue="JUnit.SinglyLinkedListTest.testsort" />
+        <item itemvalue="JUnit.SinglyLinkedListTest.testsort2" />
+        <item itemvalue="JUnit.SinglyLinkedListTest.testAdd2" />
+        <item itemvalue="JUnit.SinglyLinkedListTest" />
+        <item itemvalue="JUnit.SinglyLinkedListTest.testContainsAll2" />
       </list>
     </recent_temporary>
   </component>
@@ -292,41 +276,60 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="184" key="GridCell.Tab.0.bottom" timestamp="1606075205573">
+    <state width="1238" height="171" key="GridCell.Tab.0.bottom" timestamp="1606089036276">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="184" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1606075205573" />
-    <state width="1238" height="184" key="GridCell.Tab.0.center" timestamp="1606075205572">
+    <state width="1238" height="171" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1606089036276" />
+    <state width="1238" height="171" key="GridCell.Tab.0.center" timestamp="1606089036274">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="184" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1606075205572" />
-    <state width="1238" height="184" key="GridCell.Tab.0.left" timestamp="1606075205572">
+    <state width="1238" height="171" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1606089036274" />
+    <state width="1238" height="171" key="GridCell.Tab.0.left" timestamp="1606089036274">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="184" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1606075205572" />
-    <state width="1238" height="184" key="GridCell.Tab.0.right" timestamp="1606075205573">
+    <state width="1238" height="171" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1606089036274" />
+    <state width="1238" height="171" key="GridCell.Tab.0.right" timestamp="1606089036275">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="184" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1606075205573" />
-    <state width="1238" height="211" key="GridCell.Tab.1.bottom" timestamp="1606075146016">
+    <state width="1238" height="171" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1606089036275" />
+    <state width="1238" height="171" key="GridCell.Tab.1.bottom" timestamp="1606089036933">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="211" key="GridCell.Tab.1.bottom/0.23.1280.709@0.23.1280.709" timestamp="1606075146016" />
-    <state width="1238" height="211" key="GridCell.Tab.1.center" timestamp="1606075146014">
+    <state width="1238" height="171" key="GridCell.Tab.1.bottom/0.23.1280.709@0.23.1280.709" timestamp="1606089036933" />
+    <state width="1238" height="171" key="GridCell.Tab.1.center" timestamp="1606089036932">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="211" key="GridCell.Tab.1.center/0.23.1280.709@0.23.1280.709" timestamp="1606075146014" />
-    <state width="1238" height="211" key="GridCell.Tab.1.left" timestamp="1606075146014">
+    <state width="1238" height="171" key="GridCell.Tab.1.center/0.23.1280.709@0.23.1280.709" timestamp="1606089036932" />
+    <state width="1238" height="171" key="GridCell.Tab.1.left" timestamp="1606089036931">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="211" key="GridCell.Tab.1.left/0.23.1280.709@0.23.1280.709" timestamp="1606075146014" />
-    <state width="1238" height="211" key="GridCell.Tab.1.right" timestamp="1606075146015">
+    <state width="1238" height="171" key="GridCell.Tab.1.left/0.23.1280.709@0.23.1280.709" timestamp="1606089036931" />
+    <state width="1238" height="171" key="GridCell.Tab.1.right" timestamp="1606089036932">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1238" height="211" key="GridCell.Tab.1.right/0.23.1280.709@0.23.1280.709" timestamp="1606075146015" />
+    <state width="1238" height="171" key="GridCell.Tab.1.right/0.23.1280.709@0.23.1280.709" timestamp="1606089036932" />
     <state x="496" y="206" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1606062302994">
       <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state x="496" y="206" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1280.709@0.23.1280.709" timestamp="1606062302994" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedList.java</url>
+          <line>187</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedList.java</url>
+          <line>156</line>
+          <properties class="com.zipcodewilmington.singlylinkedlist.SinglyLinkedList" method="sort">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

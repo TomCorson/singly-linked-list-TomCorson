@@ -11,7 +11,7 @@ public class SinglyLinkedList {
     public SinglyLinkedList() {
     }
 
-    public void add(Object data) {
+    public void add(String data) {
         if (head == null) {
             head = new Node(data);
         }
@@ -26,11 +26,24 @@ public class SinglyLinkedList {
         counter++;
     }
 
+    public void add(String data, int index){
+        Node temp = new Node(data);
+        Node current = head;
+        if(current != null){
+            for(int i = 0; i < index && current.getNext() != null; i++){
+                current = current.getNext();
+            }
+        }
+        temp.setNext(current.getNext());
+        current.setNext(temp);
+        counter++;
+    }
+
     public static int getCounter() {
         return counter;
     }
 
-    public Object get(int index) {
+    public String get(int index) {
         if (index < 0)
             return null;
         Node current = null;
@@ -83,7 +96,7 @@ public class SinglyLinkedList {
         return output;
     }
 
-    public boolean contains(Object o){
+    public boolean contains(String o){
         boolean containsObj = false;
         if(head != null){
             Node current = head.getNext();
@@ -112,7 +125,7 @@ public class SinglyLinkedList {
         return  containsObjs;
     }
 
-    public Integer find(Object o) {
+    public Integer find(String o) {
         Integer index = -1;
         if(head != null){
             Node current = head.getNext();
@@ -140,6 +153,38 @@ public class SinglyLinkedList {
             }
         }
         return copied;
+    }
+    public void sort() {
+        Integer length = this.size()-1;
+        boolean isSwapped;
+
+        for(int j = 0; j < length; j++) {
+            isSwapped = false;
+                for (int i = 0; i < length-j; i++) {
+                    if (this.get(i+1) != null) {
+                        if (this.get(i).compareTo(this.get(i+1)) > 0) {
+                            String current = this.get(i);
+                            String next = this.get(i + 1);
+
+                            String temp = current;
+                            this.remove(i);
+                            this.add(next, i);
+                            if (this.get(i + 2) != null) {
+                                this.remove(i + 2);
+                                isSwapped = true;
+                            }
+                            else{
+                                this.remove(i+1);
+                                this.add(temp,2);
+                            }
+                        }
+                    }
+                }
+            if(!isSwapped){
+                break;
+            }
+
+        }
     }
 
 }

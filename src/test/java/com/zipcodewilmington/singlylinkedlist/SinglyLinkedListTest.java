@@ -18,6 +18,15 @@ public class SinglyLinkedListTest {
         assertEquals(expected,actual);
     }
     @Test
+    public void testAdd2(){
+        singlyLinkedList.add("A");
+        singlyLinkedList.add("C");
+        singlyLinkedList.add("B",1);
+        Object expected = "ABC";
+        Object actual = singlyLinkedList.toString();
+        assertEquals(expected,actual);
+    }
+    @Test
     public void testRemove(){
         singlyLinkedList.add("A");
         singlyLinkedList.add("B");
@@ -47,9 +56,9 @@ public class SinglyLinkedListTest {
     }
     @Test
     public void testToString2(){
-        singlyLinkedList.add(1);
-        singlyLinkedList.add(2);
-        singlyLinkedList.add(3);
+        singlyLinkedList.add("1");
+        singlyLinkedList.add("2");
+        singlyLinkedList.add("3");
         String expected = "123";
         String actual = singlyLinkedList.toString();
         assertEquals(expected,actual);
@@ -66,11 +75,11 @@ public class SinglyLinkedListTest {
     }
     @Test
     public void testContains2(){
-        singlyLinkedList.add(1.5);
-        singlyLinkedList.add(9.9);
-        singlyLinkedList.add(-1.2);
+        singlyLinkedList.add("Z");
+        singlyLinkedList.add("e");
+        singlyLinkedList.add("d");
         boolean expected = true;
-        boolean actual = singlyLinkedList.contains(-1.2);
+        boolean actual = singlyLinkedList.contains("d");
         assertEquals(expected,actual);
     }
     @Test
@@ -106,12 +115,54 @@ public class SinglyLinkedListTest {
     public void testContainsAll(){
         SinglyLinkedList list1 = new SinglyLinkedList();
         SinglyLinkedList list2 = new SinglyLinkedList();
-        list1.add(1);
-        list1.add(2);
-        list1.add(3);
+        list1.add("d");
+        list1.add("o");
+        list1.add("g");
         SinglyLinkedList expected = list1;
         SinglyLinkedList actual = list1.copy();
         assertTrue(expected.containsAll(actual));
+    }
+    @Test
+    public void testContainsAll2(){
+        SinglyLinkedList list1 = new SinglyLinkedList();
+        SinglyLinkedList list2 = new SinglyLinkedList();
+        list1.add("q");
+        list1.add("a");
+        list1.add("c");
+        SinglyLinkedList expected = list1;
+        SinglyLinkedList actual = list1.copy();
+        assertTrue(expected.containsAll(actual));
+    }
+    @Test
+    public void testsort(){
+        SinglyLinkedList list1 = new SinglyLinkedList();
+        SinglyLinkedList list2 = new SinglyLinkedList();
+        list1.add("b");
+        list1.add("a");
+        list1.add("c");
+        list2.add("a");
+        list2.add("b");
+        list2.add("c");
+        list1.sort();
+        String expected = list2.toString();
+        String actual = list1.toString();
+        assertEquals(expected,actual);
+    }
+    @Test
+    public void testsort2(){
+        SinglyLinkedList list1 = new SinglyLinkedList();
+        SinglyLinkedList list2 = new SinglyLinkedList();
+        list1.add("c");
+        list1.add("b");
+        list1.add("a");
+
+        list2.add("a");
+        list2.add("b");
+        list2.add("c");
+        list1.sort();
+        String expected = list2.toString();
+        String actual = list1.toString();
+        assertEquals(expected,actual);
     }
 
 
